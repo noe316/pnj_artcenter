@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NJP ARTCENTER</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600;700&display=swap" rel="stylesheet">
+		<!-- favicon -->
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,700;1,900&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="njp_favicon.ico" type="image/x-icon">
+		<link rel="icon" href="njp_favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" type="text/css" href="css/basic.css">
+		<link rel="stylesheet" type="text/css" href="css/njp.css">
+
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/njp.js"></script>
+	</head>
+	<body>
+		<header class="bg_b">
+			<div class="header-wrap">
+				<div class="header slim clearfix">
+					<div class="logo">
+						<a href="index.html">
+							<h1>NJP Artcenter</h1>
+							<span>HOME</span>
+							<img class="logo-web" src="img/logo/logo_web_w.svg" alt="NJP center logo">
+							<img class="logo-tablet" src="img/logo/logo_tablet.svg" alt="NJP center logo">
+							<img class="logo-mobile" src="img/logo/logo_mobile.svg" alt="NJP center logo">
+						</a>
+					</div>	<!-- logo -->
+					<div class="lang">
+						<ul>
+							<li class="lan"><a href="#">KR</a></li>
+							<li class="lan"><a href="#">EN</a></li>
+							<li>
+								<div class="hamburger">
+									<span class="line"></span>
+									<span class="line"></span>
+									<span class="line"></span>
+								</div>
+							</li>
+							<!-- <li><a href="#"><img class="search" src="img/button/search.svg" alt="search"></a></li> -->
+						</ul>
+					</div> <!-- lang -->
+					<nav>
+						<h2 class="hidden">Shortcut to sitemap</h2>
+						<div class="navi">
+							<ul class="mainmenu">
+								<li class="drop">
+									<a href="index.html">ARTCENTER</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="#">Architecture</a></li>
+											<li><a href="#">Plan your visit</a></li>
+											<li><a href="#">Facilities</a></li>
+											<li><a href="#">Getting Here</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="drop menusign">
+									<a href="njp.html">NAM JUNE PAIK</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="#">Biography</a></li>
+											<li><a href="#">Quotes</a></li>
+											<li><a href="#">References</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="drop">
+									<a href="#">EXHIBITIONS</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="#">Nam June Paik</a></li>
+											<li><a href="#">Special</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="drop">
+									<a href="#">PROGRAM</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="#">Education</a></li>
+											<li><a href="#">Seminar</a></li>
+											<li><a href="#">Event</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="drop">
+									<a href="#">COLLECTION</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="#">Works</a></li>
+											<li><a href="#">Library</a></li>
+											<li><a href="#">Archives</a></li>
+											<li><a href="#">Pubilcations</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="drop">
+									<a href="#">ABOUT US</a>
+									<div class="submenu">
+										<ul>
+											<li><a href="#">Notice</a></li>
+											<li><a href="#">FnQ</a></li>
+											<li><a href="#">Free board</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>	<!-- navi -->
+					</nav>
+				</div>	<!-- header -->
+				<script>
+					$(window).scroll(function(){
+						var wTop = $(window).scrollTop()
+						var sec5bg = $('#sec5bg').offset().top
+						
+						if(wTop > sec5bg + 100) {
+						$("header").addClass('dp_none')
+						} else if(wTop < sec5bg + 100) {
+						$("header").removeClass('dp_none')
+						}
+					});
+				</script>
+			</div>	<!-- header-wrap -->
+			<div class="bg"></div>
+		</header>
+		<div id="container-wrap">
+			<section id="sec1">
+				<div class="sec1-title">
+					<div class="title-year">
+						<span>1932</span>
+						<span>2006</span>
+					</div>
+					<h2>NAM JUNE PAIK</h2>
+				</div>
+				<div class="sec1-text">
+					<p class="text-up">
+						Born in Seoul in 1932, Paik spent his middleschool days in Seoul and Hong Kong, and his high-school days in Kamakura, Japan. He studied aesthetics in the University of Tokyo, with a graduation thesis on Arnold Schoenberg. Moving to Germany in 1956 and studying European philosophy and modern music, he came to work actively with contemporary avant-garde artists and began to carve out his artist-identity by doing radical performances which were completely different from artistic canons and conventions back then. Afterwards he pursued a novel path of art making by means of new media. His media art gained momentum by his first solo show Exposition of Music. Electronic Television in which he presented televisions with inner circuits modified and manipulated, as a work of art.
+					</p>
+					<div class="arrow">
+						<a href="#sec2">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</section>
+			<script>
+				// njp arrow soft scroll
+				$(document).ready(function(){
+					$('a[href^="#"]').on('click',function (e) {
+						e.preventDefault();
+
+						var target = this.hash;
+						var $target = $(target);
+
+						$('html, body').stop().animate({
+							'scrollTop': $target.offset().top
+						}, 900, 'swing', function () {
+							window.location.hash = target;
+						});
+					});
+				});
+
+
+				// text-up effect new
+				$(document).ready(function(){
+					$('.text-up').addClass('visible')
+				})
+
+				// text-up effect
+				// $(window).scroll(function(){
+				// 	var wTop = $(window).scrollTop()
+				// 	var sec1 = $('#sec1').offset().top
+
+				// 	if(wTop > sec1) {
+				// 		$('.text-up').addClass('visible')
+				// 	}
+				// })
+			</script>
+			<div class="sec2bg">
+				<span>LIFE</span>
+			</div>
+			<section id="sec2">
+				<h3>Nam june paik's early life</h3>
+				<div class="sec2-left">
+					<div class="portrait por1">
+						<img src="img/sub_njp/portrait_2.jpg" alt="">
+					</div>
+					<div>
+						<p class="text-up">
+							1964 Paik migrated to the US where he developed his video art in full swing. Not only producing video images, he combined them with sculptures and installations, and even created a video synthesizer, a machine to process images.
+						</p>
+					</div>
+				</div>
+				<div class="sec2-right">
+					<div class="portrait por2">
+						<img src="img/sub_njp/portrait_3.jpeg" alt="">
+					</div>
+					<div class="arrow">
+						<a href="#sec3">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+					</div>
+				</div>
+			</section>	<!-- sec2 -->
+			<script>
+				// text-up effect
+				$(window).scroll(function(){
+					var wTop = $(window).scrollTop()
+					var sec2 = $('.sec2-right').offset().top
+
+					if(wTop > sec2 + 1000) {
+						$('.text-up').addClass('visible')
+					}
+				})
+			</script>
+			<section id="sec3">
+				<h3>Nam june paik's middle to end of life</h3>
+				<div class="sec3-wrap">
+					<p class="text-right sec3p1">
+						His incessant exploration about music and the body was also a key factor in constructing a distinct territory of his art. From the 1980s Paik realized a series of global projects, such as Good Morning Mr. Orwell, to tear down barriers between avantgarde art and popular culture by satellite TV technology. 
+
+					</p>
+					<p class="text-right sec3p2">
+						He won the Golden Lion of the 1993 Venice Biennale for his work on the theme of artist as nomad in the German Pavilion. 
+					</p>
+					<p class="text-right sec3p3">
+						Later on he expanded his technological realm into other media like laser, and while suffering a stroke since the mid-1990s, he never ceased to take his artistic step forward until he passed away in Miami in 2006.
+					</p>
+
+				</div>
+			</section>	<!-- sec3 -->
+			<script>
+				// text-up effect
+				$(window).scroll(function(){
+					var wTop = $(window).scrollTop()
+					var sec3 = $('#sec3').offset().top
+					var sec3p1 = $('.sec3p1').offset().top
+					var sec3p2 = $('.sec3p2').offset().top
+
+					if(wTop > sec3 - 600) {
+						$('.sec3p1').addClass('visible')
+					} if(wTop > sec3p1) {
+						$('.sec3p2').addClass('visible')
+					} if(wTop > sec3p2) {
+						$('.sec3p3').addClass('visible')
+					}
+				})
+			</script>
+			<section id="sec4">
+				<div class="sec4-wrap">
+					<h3>Appreciation as a media artist</h3>
+					<p class="text-up">
+						Paik is a pioneering media artist working with various technologies in creative and experimental ways. He saw the artist’s role as consisting in thinking about the future and sought for better ways of global communication through art. Regarded as “one of the forerunners of a new breed of artists who are scientists, philosophers and engineers at the same time” and as “a very special and genuine genius and futurologist with foresight” Paik still lives on with us right here as “the most contemporary artist” today.
+					</p>
+					<div class="sec4-slide autoplay">
+						<div>
+							<figure class="slide-pho">
+								<img src="img/sub_njp/subslide_1.jpg" alt="">
+								<figcaption>
+									Untitled (Nam June Paik with his "Demagnetizer" or "Life Ring"), October 15, 1965, gelatin silver print, stamped and dated on reverse
+								</figcaption>
+							</figure>
+						</div>
+						<div>
+							<figure class="slide-pho">
+								<img src="img/sub_njp/subslide_2.jpg" alt="">
+								<figcaption>
+									George Maciunas with Nam June Paik, Alison Knowles, Emmett Williams, George Maciunas, Benjamin Patterson George Maciunas' performed during Concert No. 5, Fluxus
+								</figcaption>
+							</figure>
+						</div>
+						<div>
+							<figure class="slide-pho">
+								<img src="img/sub_njp/subslide_3.jpg" alt="">
+								<figcaption>
+									Nam June Paik, Hand and Face, 1961. Courtesy of Electronic Arts Intermix (EAI), New York and the Estate of Nam June Paik. © The Estate of Nam June Paik
+								</figcaption>
+							</figure>
+						</div>
+						<div>
+							<figure class="slide-pho">
+								<img src="img/sub_njp/subslide_4.jpg" alt="">
+								<figcaption>
+									Nam June Paik with Buddha TV (1974) at Projects: Nam June Paik, Museum of Modern Art, New York, 1977. © Eric Kroll
+								</figcaption>
+							</figure>
+						</div>
+					</div>	<!-- sec4-slide subslide -->
+				</div>	<!-- sec4-wrap -->
+			</section>	<!-- sec4 -->
+			<script>
+				$('.autoplay').slick({
+					slidesToShow: 2,
+					slidesToScroll: 1,
+					autoplay: true,
+					autoplaySpeed: 5000,
+				});
+
+				$(window).scroll(function(){
+					var wTop = $(window).scrollTop()
+					var sec4 = $('#sec4').offset().top
+
+					if(wTop > sec4 + 600) {
+						$('.text-up').addClass('visible')
+					}
+				})
+			</script>
+			<section id="sec5">
+				<div class="sec5-wrap">
+					<h2>BIOGRAPHY</h2>
+					<div class="biography">
+						<div class="bio-year year1930">
+							<div>
+								<span>1930</span>
+							</div>
+							<ul class="years-sec sec1930">
+								<li>
+									<strong>1932</strong>
+									<div>
+										Born July 20, one year after Mukden Incident, Seorin-dong, Jongno-gu ( the youngest of three sons and two daughters to father Paik Nak Seung and mother Jo Jong Hee).
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>1940</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>1945</strong>
+									<div>
+										Admitted to GyeongGi High School.
+										Developed an interest in the work of pianist Shin Jae Deok, composer Lee Geon Woo, and in 20th century music.
+									</div>
+								</li>
+								<li>
+									<strong>1949</strong>
+									<div>
+										Moved to Hong Kong, admitted to Royden School.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>1950</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>1950</strong>
+									<div>
+										Moved back to Korea, left Busan for Kobe, Japan because of the Korean War, lived in Kamakura.
+										Presumed to have graduated Highschool in Kamakura.
+									</div>
+								</li>
+								<li>
+									<strong>1952</strong>
+									<div>
+										Got admission from College of Humanities and Industrial Science and attended College of Humanities.<br>
+										Admitted to College of Humanities and Industrial Science, the University of Tokyo in Japan.
+									</div>
+								</li>
+								<li>
+									<strong>1954</strong>
+									<div>
+										Admitted to Dept. of Aesthetics and Art History, the University of Tokyo.
+									</div>
+								</li>
+								<li>
+									<strong>1956</strong>
+									<div>
+										Graduated from Dept. of Aesthetics, the University of Tokyo.<br>
+										Admitted to Dept. of Philosophy, the University of Munich. Studied musicology and art history.
+									</div>
+								</li>
+								<li>
+									<strong>1957</strong>
+									<div>
+										Met music composer Stockhausen at the International Summer Courses for New Music in Darmstadt. Composed his first string quartet
+									</div>
+								</li>
+								<li>
+									<strong>1958</strong>
+									<div>
+										Met John Cage, who was a great influence throughout his life, during the summer courses in Darmstadt.
+									</div>
+								</li>
+								<li>
+									<strong>1959</strong>
+									<div>
+										Premiered 'Homage to John Cage' at Gallery 22, Dusseldorf.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>1960</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>1960</strong>
+									<div>
+										Began to attract public attention through his 'Etude for Pianoforte' performance by smashing two pianos and cutting John Cage's necktie on October 6.
+									</div>
+								</li>
+								<li>
+									<strong>1961</strong>
+									<div>
+										Participated in Stockhausen's 'Originale' performance
+									</div>
+								</li>
+								<li>
+									<strong>1962</strong>
+									<div>
+										'One for Violin Solo'
+										Participated in 'Fluxus International Festival of the Newest Music', an event held to celebrate the formation of Fluxus in Wiesbaden, and played pieces including 'Smile Gently'<br>
+										Met Maciunas and Beuys and joined the self-organization movement of Fluxus.
+									</div>
+								</li>
+								<li>
+									<strong>1963</strong>
+									<div>
+										First solo exhibition 'Exposition of Music - Electronic Television' at Parnass Gallery in Wuppertal.
+										Met Hideo Ochida and Shuya Abe.
+									</div>
+								</li>
+								<li>
+									<strong>1964</strong>
+									<div>
+										Performed 'Robot K-456' and 'Robot Opera' with cellist Charlotte Moorman in the New York Avant Garde Festival based on the 'Originale' performance.
+									</div>
+								</li>
+								<li>
+									<strong>1965</strong>
+									<div>
+										First solo exhibition in the United States 
+										'Electronic Arts' at the Bonino Gallery in New York.
+									</div>
+								</li>
+								<li>
+									<strong>1967</strong>
+									<div>
+										Arrested on a charge of public indecency during the performance of 'Opera Sextronique' with Charlotte Moorman.
+									</div>
+								</li>
+								<li>
+									<strong>1969</strong>
+									<div>
+										'Medium is Medium' broadcast by WGBH in Boston.
+										Nam June Paik's piece 'Electronic Opera No.1' was the last part of the program.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>1970</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>1970</strong>
+									<div>
+										Developed video synthesizer with Shuya Abe with the support from WGBH and the Rockefeller Foundation.<br>
+										'Video Commune', a four-hour program, is the first work utilizing the video synthesizer to ever be broadcast.
+									</div>
+								</li>
+								<li>
+									<strong>1973</strong>
+									<div>
+										'Global Groove' broadcast by WNET in New York.<br>
+										'A Tribute to John Cage' jointly produced and broadcast by WGBH and WNET.
+									</div>
+								</li>
+								<li>
+									<strong>1974</strong>
+									<div>
+										Recollection exhibition 'Nam June Paik: Videa 'n' Videology' held at Everson Museum of Art in New York
+									</div>
+								</li>
+								<li>
+									<strong>1977</strong>
+									<div>
+										Married Shigeko Kubota, a Fluxus colleague and video artist. Started to suffer from diabetes.
+									</div>
+								</li>
+								<li>
+									<strong>1978</strong>
+									<div>
+										Employed as a professor of National Arts Academy, Dusseldorf.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>1980</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>1982</strong>
+									<div>
+										Recollection exhibition Nam June Paik' held at Whitney Museum of American Arts in New York.
+										Staged a car accident ('First Accident of the 21st Century') as a ritual for separating from his long-time companion Robot K-456'
+										Participated in the events celebrating the 20 years of Fluxus: Wiesbaden FLUXUS 1962-82, Eine Kleine Geschichte von Fluxus in drei Teilen' at Museum Wiesbaden.
+									</div>
+								</li>
+								<li>
+									<strong>1984</strong>
+									<div>
+										'Good Morning, Mr. Orwell', the first in his space opera trilogy, broadcast all over the world on the night of New Year's Day.<br>
+										The real-time live performance that connected New York and Paris via satellite was watched by 25,000,000 viewers globally including the re-broadcast.
+
+									</div>
+								</li>
+								<li>
+									<strong>1986</strong>
+									<div>
+										'Bye Bye Kipling', the second in the trilogy of space opera that linked Seoul, Tokyo and New York, is broadcast on October 3.<br>
+										This work offered Paik's 20th century answer to 19th-century British poet Kipling's claim that the East and the West wouldn't be able to understand each other.
+									</div>
+								</li>
+								<li>
+									<strong>1988</strong>
+									<div>
+										'The More the Better' consisting of 1,003 TV monitors is permanently installed at the National Museum of Contemporary Art, Korea.
+										Broadcast concluding “the space opera trilogy”,is jointly organized by Seoul and New York and includes the participation of more than ten countries in the world.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>1990</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>1990</strong>
+									<div>
+										Held a shamanistic ritual (gut) at Gallery Hyundai on July 20 for Joseph Beuys, a life-long friend who died in 1986.
+									</div>
+								</li>
+								<li>
+									<strong>1992</strong>
+									<div>
+										'Nam June Paik: Neue Arbeiten at Galerie Hans Mayer, Dusseldorf.<br>
+										First major retrospective exhibition in Korea 'Nam June Paik: Video Space and Video Time
+										'Nam June Pauk Video Art 30 years Retrospective Exhibition at Gallery Hyundai, Won Gallery, Gallery Meegun.
+									</div>
+								</li>
+								<li>
+									<strong>1993</strong>
+									<div>
+										At the biennale's invitation Paik presented 'Electronic Super Highway' at the German Pavilion.
+									</div>
+								</li>
+								<li>
+									<strong>1995</strong>
+									<div>
+										Participated in the First Gwangju Biennale and organized a special exhibition 'InfoArt'.
+									</div>
+								</li>
+								<li>
+									<strong>1996</strong>
+									<div>
+										Suffered cerebral hemorrhage in New York on April 20.
+									</div>
+								</li>
+								<li>
+									<strong>1999</strong>
+									<div>
+										'Nam June Paik: Fluxus/Video' exhibition held in Kunsthalle Bremen, Germany.<br>
+										Listed eighth in the German business magazine Capital list of the 100 most prominent artists in the world.<br>
+										Named among the 25 most influential artists in the 20th century by ARTnews magazine.
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="bio-year">
+							<div>
+								<span>2000</span>
+							</div>
+							<ul class="years-sec">
+								<li>
+									<strong>2000</strong>
+									<div>
+										'DMZ2000, Tiger Lives', piece including a real time satellite broadcast on January 1.<br>
+										'The Worlds of Nam June Paik' exhibition at the Guggenheim Museum in New York on February 11 to April 2.<br>
+										Laser work 'Modulation in Sync : Sweet and Sublime' represents Paik's efforts not to be confined to the past and to challenge the dream for a new utopia.
+									</div>
+								</li>
+								<li>
+									<strong>2001</strong>
+									<div>
+										'The Worlds of Nam June Paik' exhibition at the Guggenheim Museum in Bilbao, Spain.
+									</div>
+								</li>
+								<li>
+									<strong>2002</strong>
+									<div>
+										'Transmission' at the Rockefeller Center in New York, consisting of performances and outdoor exhibition of laser works.
+									</div>
+								</li>
+								<li>
+									<strong>2006</strong>
+									<div>
+										Passed away at his Miami residence on January 29 1981 (49 years old).
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>	<!-- sec5-wrap -->
+			</section>	<!-- sec5 -->
+			<script>
+			// year circle button
+				$('document').ready(function(){
+					
+					$('.bio-year').click(function(){
+						$('.bio-year').removeClass('active')
+						$(this).addClass('active')
+					})
+
+					$('.year1930').addClass('active')
+					$('.sec1930').addClass('on')
+				})
+
+			// first tab on
+				// $('.years-sec').hide();
+				// $('.years-sec').eq(0).show();
+
+			// height 
+				$('.bio-year > div').on('click', function(){
+					// var wrapH = $(this).nextAll('.years-sec').height();
+					var bio = $(this).next('.years-sec').height();
+					console.log(bio)
+
+					$('.bio-year').height(bio + 100)
+					$('.years-sec').removeClass('on');
+					// $(this).addClass('on')
+				})
+
+				$('.bio-year > div').on('click', function(){
+					$('.years-sec').removeClass('on')
+					$(this).next('.years-sec').addClass('on')
+				})
+
+
+			</script>
+			<div id="sec5bg">
+				<img src="img/njp/portrait_6.jpg" alt="bg">
+			</div>
+		</div>
+		<footer>
+			<div id="footer-wrap">
+				<div class="footer-top">
+					<div class="logo">
+						<a href="index.html">
+							<img class="logo-web-b" src="img/logo/logo_web_b.svg" alt="NJP center logo">
+							
+							<img class="logo-mobile" src="img/logo/logo_mobile.svg" alt="NJP center logo">
+						</a>
+					</div>	<!-- logo -->
+					<div class="ft-navi clearfix">
+						<ul>
+							<li class="ft-mainmenu">
+								<a href="index.html">ARTCENTER</a>
+								<div>
+									<ul class="ft-submenu">
+										<li><a href="#">Architecture</a></li>
+										<li><a href="#">Plan your visit</a></li>
+										<li><a href="#">Facilities</a></li>
+										<li><a href="#">Getting Here</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="ft-mainmenu">
+								<a href="njp.html">NAM JUNE PAIK</a>
+								<div>
+									<ul class="ft-submenu">
+										<li><a href="njp.html">Biography</a></li>
+										<li><a href="njp.html">Quotes</a></li>
+										<li><a href="njp.html">References</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="ft-mainmenu">
+								<a href="#">EXHIBITIONS</a>
+								<div>
+									<ul class="ft-submenu">
+										<li><a href="#">Nam June Paik</a></li>
+										<li><a href="#">Special</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="ft-mainmenu">
+								<a href="#">PROGRAM</a>
+								<div>
+									<ul class="ft-submenu">
+										<li><a href="#">Education</a></li>
+										<li><a href="#">Seminar</a></li>
+										<li><a href="#">Event</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="ft-mainmenu">
+								<a href="#">COLLECTION</a>
+								<div>
+									<ul class="ft-submenu">
+										<li><a href="#">Works</a></li>
+										<li><a href="#">Library</a></li>
+										<li><a href="#">Archives</a></li>
+										<li><a href="#">Pubilcations</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="ft-mainmenu">
+								<a href="#">ABOUT US</a>
+								<div>
+									<ul class="ft-submenu">
+										<li><a href="#">Notice</a></li>
+										<li><a href="#">FnQ</a></li>
+										<li><a href="#">Free board</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>	<!-- footer-top -->
+				<div class="footer-btm">
+					<div class="ft-info">
+						<ul>
+							<li class="follow">
+								<a href="#">FOLLOW US</a>
+								<div>
+									<ul class="clearfix">
+										<li class="ins">
+											<a href="https://www.instagram.com/njpartcenter/">Instagram</a>
+										</li>
+										<li class="fb">
+											<a href="https://www.facebook.com/Njpartcenter?ref=hl">Facebook</a>
+										</li>
+										<li class="yt">
+											<a href="https://www.youtube.com/channel/UCWPgWuGmoG7mGnK8BguTMZg">Youtube</a>
+										</li>
+										<li class="twi">
+											<a href="https://twitter.com/namjunepaikart">Twitter</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="contact">
+								<strong>CONTACT</strong>
+								<div>
+									<span>+82 31 201 8500</span><br>
+									<a href="mailto:njp@njpartcenter.com">njp@njpartcenter.com</a>
+								</div>
+							</li>
+							<li class="address">
+								<strong>ADDRESS</strong>
+								<div>
+									<address>
+										10 Paiknamjune-ro,<br>
+										Giheung-gu, yongin-si,<br> 
+										Gyeuonggi-do, 17068<br> 
+										Korea
+									</address>
+								</div>
+							</li>
+							<li class="admission">
+								<a href="#">ADMISSION</a>
+								<div>
+									<strong class="underline">NAM JUNE PAIK</strong>
+									Free enterance
+									<strong class="underline">SPECIAL EXHIBITION</strong>
+									<div class="price">
+										adult 100%<br>
+										student 50%<br>
+										under 6 Free
+									</div>
+								</div>
+							</li>
+							<li class="hours">
+								<a href="#">OPENING HOURS</a>
+								<div>
+									<p>
+										September to June<br>
+										July to August<br>
+										Closed
+									</p>
+								</div>
+							</li>
+							<li class="hours hours2">
+								<a href="#">HOURS</a>
+								<div>
+									<p>
+										10am - 6pm<br>
+										10am - 6pm<br>
+										Every monday<br>
+										Jan 1st<br>
+										New year<br>
+										Thanksgiving<br>
+									</p>
+								</div>
+							</li>
+							<li class="m-hours">
+								<a href="#">OPENING HOURS</a>
+								<div>
+									<p>
+										Sep to Jun<br>
+										Jul to Aug<br>
+										Closed
+									</p>
+									<p>
+										10am - 6pm<br>
+										10am - 6pm<br>
+										Every monday<br>
+										Jan 1st<br>
+										New year<br>
+										Thanksgiving<br>
+									</p>
+								</div>
+							</li>	<!-- m-hours -->
+						</ul>
+					</div>
+				</div>	<!-- footer-btm -->
+				<div class="footer-form">
+					<div class="reservation">
+						<strong>GROUP VISITS</strong>
+						<a href="#">Reservation</a>
+					</div>
+					<div class="newsletter">  
+						<strong><em>SUBSCRIBE</em>NEWSLETTER</strong>
+						<form>
+							<div class="news">      
+								<input type="text" required>
+								<span class="bar"></span>
+								<label class="label-news">E-mail</label>
+							</div>
+						</form>
+
+					</div>
+				</div>	<!-- footer-form -->
+				<div class="copyright clearfix">
+					<span class="c-left">
+						Ⓒ 2020 Nam June Paik Artcenter
+					</span>
+					<div class="c-right">
+						<ul>
+							<li><a href="#" onclick="window.print();return false;">Imprint</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>	<!-- copyright -->
+			</div>
+		</footer>
+		<script>
+			// 내부링크 스크롤 부드럽게
+			$(document).ready(function(){
+				$('a[href^="#"]').on('click',function (e) {
+					e.preventDefault();
+
+					var target = this.hash;
+					var $target = $(target);
+
+					$('html, body').stop().animate({
+						'scrollTop': $target.offset().top
+					}, 900, 'swing', function () {
+						window.location.hash = target;
+					});
+				});
+			});
+		</script>
+
+	</body>
+</html>
